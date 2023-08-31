@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Layout/main');
 });
+
+Route::get('/BiodataGuru', function () {
+    return view('Guru/biodata');
+});

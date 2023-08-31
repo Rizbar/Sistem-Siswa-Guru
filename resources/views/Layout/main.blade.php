@@ -16,8 +16,8 @@
       <a class="navbar-brand" href="#">
         <img src="assets/img/logo.png" width="100" height="30" alt="logo">
       </a>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav me-auto mb-2 ms-4 mb-lg-0">
+      <div class="collapse navbar-collapse nav justify-content-end">
+        <ul class="navbar-nav mb-2 ms-4 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link fw-bold" style="color: #134F5C"  href="#">Beranda</a>
           </li>
@@ -33,43 +33,8 @@
   </nav>
 
   <footer class="bg-white text-center text-white mt-auto">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0 ">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a href="https://github.com/Amar-Suhendra/INF206-2022-DY2-MengHeal/graphs/contributors" target="_blank" class="btn">
-                    <ion-icon size="large" name="logo-facebook"></ion-icon>
-                </a>
-
-                <!-- Twitter -->
-                <a href="https://github.com/Amar-Suhendra/INF206-2022-DY2-MengHeal/graphs/contributors" target="_blank" class="btn">
-                    <ion-icon size="large" name="logo-twitter"></ion-icon>
-                </a>
-
-                <!-- Google -->
-                <a href="https://github.com/Amar-Suhendra/INF206-2022-DY2-MengHeal/graphs/contributors" target="_blank" class="btn">
-                    <ion-icon size="large" name="logo-google"></ion-icon>
-                </a>
-
-                <!-- Instagram -->
-                <a href="https://github.com/Amar-Suhendra/INF206-2022-DY2-MengHeal/graphs/contributors" target="_blank" class="btn">
-                    <ion-icon size="large" name="logo-instagram"></ion-icon>
-                </a>
-
-                <!-- Linkedin -->
-                <a href="https://github.com/Amar-Suhendra/INF206-2022-DY2-MengHeal/graphs/contributors" target="_blank" class="btn">
-                    <ion-icon size="large" name="logo-linkedin"></ion-icon>
-                </a>
-
-                <!-- Github -->
-                <a href="https://github.com/Amar-Suhendra/INF206-2022-DY2-MengHeal/graphs/contributors" target="_blank" class="btn">
-                    <ion-icon size="large" name="logo-github"></ion-icon>
-                </a>
-                
-            </section>
-            <!-- Section: Social media -->
-        </div>
+    
+</footer>
 
 </body>
 
