@@ -9,7 +9,7 @@
 
 <body>
     <div class="container">
-        <h1>User Login</h1>
+        <h1>Login</h1>
 
         <div class="input">
             <form>
@@ -22,11 +22,18 @@
 
                 <label for="fname">Username</label>
                 <input type="text" id="fname" name="fname">
+                
                 <label for="pass">Password</label>
-
                 <input type="text" id="pass" name="pass">
             </form>
         </div>
+
+        <p>Belum ada akun? <a href="/register">Register akun di sini</a></p>
+
+        <div class="buttoncontainer">
+        <input type="button" class="button" value="Login">
+        </div>
+
     </div>
 <body>
 
