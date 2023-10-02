@@ -28,8 +28,10 @@
             </form>
         </div>
 
+        <p>Belum ada akun? <a href="#">Register akun di sini</a></p>
+
         <div class="buttoncontainer">
-        <input type="button" class="button" value="Input Button">
+        <input type="button" class="button" value="Login">
         </div>
 
     </div>

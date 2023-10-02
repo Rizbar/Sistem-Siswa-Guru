@@ -7,15 +7,19 @@
     border: 1px solid black
 }
 
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
 .input{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-h1{
-    text-align: center;
 }
 
 input[type=text], select {
@@ -25,7 +29,7 @@ input[type=text], select {
 
 .buttoncontainer{
     text-align: center;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 .button{
