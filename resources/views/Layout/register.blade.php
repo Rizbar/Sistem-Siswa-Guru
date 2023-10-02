@@ -25,7 +25,7 @@
         </div>
 
         <div class="buttoncontainer">
-            <input type="button" class="button" value="Register">
+            <a href="/login" class="button">Register</a> 
         </div>
 
     </div>
