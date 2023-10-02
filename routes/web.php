@@ -24,3 +24,7 @@ Route::get('/biodataguru', function () {
 Route::get('/login', function () {
     return view('Layout/login');
 });
+
+Route::get('/register', function () {
+    return view('Layout/register');
+});
