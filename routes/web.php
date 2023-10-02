@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('Layout/main');
 });
 
-Route::get('/BiodataGuru', function () {
-    return view('Guru/biodata');
+Route::get('/biodataguru', function () {
+    return view('Guru/navbarguru');
+});
+
+Route::get('/login', function () {
+    return view('Layout/login');
 });
