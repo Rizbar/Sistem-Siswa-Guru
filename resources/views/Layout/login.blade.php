@@ -27,6 +27,11 @@
                 <input type="text" id="pass" name="pass">
             </form>
         </div>
+
+        <div class="buttoncontainer">
+        <input type="button" class="button" value="Input Button">
+        </div>
+
     </div>
 <body>
 
