@@ -10,36 +10,53 @@
 </head>
 
 <body class="d-flex flex-column bg-light">
-    <nav class="navbar shadow sticky-top navbar-expand-lg navbar-light ps-3" style="background-color: #A3C7E9">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="#" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                SMK
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar shadow sticky-top navbar-expand-lg navbar-light ps-3" style="background-color: #A3C7E9">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="#" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                        SMK
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item me-3">
+                                <a class="btn btn-light" href="#" role="button">logout</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                </div>
+            </nav>
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">
+                                <span data-feather="home"></span>
+                                Dashboard
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">
+                                <span data-feather="user"></span>
+                                Biodata
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="book"></span>
+                                Nilai
+                            </a>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </nav>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="container mt-5 mb-5">
+                    @yield('container')
+                </div>
+            </main>    
         </div>
-    </nav>
-
-    <div class="container mt-5 mb-5">
-        @yield('container')
     </div>
 </body>
 </html>
