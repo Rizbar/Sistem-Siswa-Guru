@@ -21,6 +21,14 @@ Route::get('/BiodataGuru', function () {
     return view('Guru/biodata');
 });
 
+Route::get('/UploadGuru', function () {
+    return view('Guru/uploadSertifikat');
+});
+
+Route::get('/DaftarSiswa', function () {
+    return view('Guru/daftarsiswa');
+});
+
 Route::get('/login', function () {
     return view('Layout/login');
 });
