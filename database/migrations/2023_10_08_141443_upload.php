@@ -13,26 +13,22 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::table('upload', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('username')->unique();
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->boolean('level_access')->nullable();
-            $table->rememberToken();
+            $table->string('namefile');
+            $table->string('isifile');
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
-     *
+     * 
      * @return void
      */
+
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('upload');
     }
 };
