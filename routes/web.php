@@ -43,7 +43,6 @@ Route::get('/UploadGuru', function () {
 
 Route::get('/DaftarSiswa', function () {
     return view('Guru/daftarsiswa');
-<<<<<<< HEAD
 });
 
 Route::get('/KelasWali', function () {
@@ -72,6 +71,4 @@ Route::get('/login', function () {
 
 Route::get('/register', function () {
     return view('Layout/register');
-=======
->>>>>>> 85d3337a3c8b9054b84f607c0a464dd11fc0022f
 });
