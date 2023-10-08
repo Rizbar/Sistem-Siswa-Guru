@@ -49,8 +49,12 @@ Route::get('/KelasWali', function () {
     return view('Guru/kelaswali');
 });
 
-Route::get('/PembimbinganGuru', function () {
+Route::get('/PembimbingGuru', function () {
     return view('Guru/pembimbing');
+});
+
+Route::get('/DataSiswa', function () {
+    return view('Guru/datasiswa');
 });
 
 Route::get('/BiodataSiswa', function () {

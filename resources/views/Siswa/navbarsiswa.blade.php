@@ -41,7 +41,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold text-light" href="/Pembimbing">
+                            <a class="nav-link fw-bold text-light" href="/PembimbingSiswa">
                                 Pembimbingan
                             </a>
                         </li>
