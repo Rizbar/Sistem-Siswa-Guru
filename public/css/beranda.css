@@ -7,17 +7,17 @@
 }
 
 h2{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h3{
-    margin-top: 15x;
+    margin-top: 20x;
     margin-bottom: 20px;
 }
 
 .prestasi{
-    padding-top: 30px;
+    padding-top: 5px;
     padding-bottom: 50px;
     width: 100%;
     background-color: bisque;
@@ -33,16 +33,15 @@ h3{
 }
 
 .guru{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 5px;
     width: 100%;
     background-color: bisque;
     text-align: center;
 }
 
 .staff{
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 20px;
     width: 100%;
     background-color: bisque;
     text-align: center;
