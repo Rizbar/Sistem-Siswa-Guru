@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="css/beranda.css" rel="stylesheet">
     <title>Management SMK</title>
 </head>
 
@@ -18,7 +19,7 @@
       <div class="collapse navbar-collapse nav justify-content-end">
         <ul class="navbar-nav mb-2 ms-4 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link fw-bold" style="color: #134F5C"  href="#">Beranda</a>
+            <a class="nav-link fw-bold" style="color: #134F5C"  href="/">Beranda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bold" style="color: #134F5C" href="#">Guru dan Staff</a>
@@ -35,7 +36,7 @@
     </div>
   </nav>
   <main>
-    <div class="container mt-5 mb-5">
+    <div>
       @yield('container')
     </div>
 </main>

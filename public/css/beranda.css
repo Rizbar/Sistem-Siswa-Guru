@@ -1,30 +1,18 @@
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
+.intro{
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 100%;
-}
-
-li{
-    float: right;
-}
-
-li a{
-    display: block;
-    color: white;
+    background-color: aquamarine;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
-  
-.active {
-    background-color: #04AA6D;
+
+.prestasi{
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
 }

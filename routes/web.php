@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('Layout/beranda');
 });
 
+Route::get('/guru', function () {
+    return view('Layout/guru');
+});
+
+
 Route::get('/BiodataGuru', function () {
     return view('Guru/biodata');
 });
@@ -36,3 +41,4 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('Layout/register');
 });
+
