@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -35,8 +34,12 @@
       </div>
     </div>
   </nav>
-
-  <footer class="bg-white text-center text-white mt-auto">
+  <main>
+    <div class="container mt-5 mb-5">
+      @yield('container')
+    </div>
+</main>
+<footer class="bg-white text-center text-white mt-auto">
     
 </footer>
 

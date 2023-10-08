@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Layout/main');
+    return view('Layout/beranda');
 });
 
 Route::get('/BiodataGuru', function () {
