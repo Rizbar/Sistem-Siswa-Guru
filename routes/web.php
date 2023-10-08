@@ -17,6 +17,22 @@ Route::get('/', function () {
     return view('Layout/beranda');
 });
 
+Route::get('/guru', function () {
+    return view('Layout/guru');
+});
+
+Route::get('/jurusan', function () {
+    return view('Layout/jurusan');
+});
+
+Route::get('/login', function () {
+    return view('Layout/login');
+});
+
+Route::get('/register', function () {
+    return view('Layout/register');
+});
+
 Route::get('/BiodataGuru', function () {
     return view('Guru/biodata');
 });
@@ -27,6 +43,7 @@ Route::get('/UploadGuru', function () {
 
 Route::get('/DaftarSiswa', function () {
     return view('Guru/daftarsiswa');
+<<<<<<< HEAD
 });
 
 Route::get('/KelasWali', function () {
@@ -55,4 +72,6 @@ Route::get('/login', function () {
 
 Route::get('/register', function () {
     return view('Layout/register');
+=======
+>>>>>>> 85d3337a3c8b9054b84f607c0a464dd11fc0022f
 });
