@@ -31,7 +31,7 @@
         <p>Belum ada akun? <a href="/register">Register akun di sini</a></p>
 
         <div class="buttoncontainer">
-        <input type="button" class="button" value="Login">
+        <a href="/BiodataGuru" class="button">Login</a>
         </div>
 
     </div>
