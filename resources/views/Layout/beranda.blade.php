@@ -10,17 +10,19 @@
     </div>
 
     <div class="prestasi">
-        <h3>Prestasi SMK 3 Banda Aceh</h3>
-        <div class="box1">
-            <p>Berikut ini prestasi SMK3 dalam meraih penghargaan</p>
-        </div>
-
-        <div class="box2">
-            <p>Berikut ini prestasi SMK3 dalam meraih penghargaan</p>
-        </div>
-
-        <div class="clear">
-
+        <h2>Prestasi SMK 3 Banda Aceh</h2>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="box col">
+                    <p>Berikut ini prestasi SMK3 dalam meraih penghargaan</p>
+                </div>
+                <div class="box col">
+                    <p>Berikut ini prestasi SMK3 dalam meraih penghargaan</p>
+                </div>
+                <div class="box col">
+                    <p>Berikut ini prestasi SMK3 dalam meraih penghargaan</p>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

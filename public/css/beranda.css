@@ -1,5 +1,5 @@
 .intro{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
     width: 100%;
     background-color: aquamarine;
@@ -7,34 +7,40 @@
 }
 
 h2{
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 15x;
     margin-bottom: 20px;
 }
 
 .prestasi{
+    padding-top: 30px;
+    padding-bottom: 50px;
     width: 100%;
     background-color: bisque;
     text-align: center;
 }
 
-.box1{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 1200px;
-    background-color: red;
-    float: left;
+.box{
+    margin: 10px;
+    background-color: aquamarine;
 }
 
-.box2{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-    margin-right: 1200px;
-    background-color: red;
-    float: left;
+.guru{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
 }
 
-.clear{
-    clear:both;
+.staff{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
 }
