@@ -13,7 +13,7 @@
 
         <div class="input">
             <form>
-                <label for="fname">Username</label>
+                <label for="fname">Email</label>
                 <input type="text" id="fname" name="fname">
                 
                 <label for="pass">Password</label>

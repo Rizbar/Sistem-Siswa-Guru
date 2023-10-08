@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('upload', function (Blueprint $table) {
+        Schema::create('upload', function (Blueprint $table) {
             $table->id();
             $table->string('namefile');
             $table->string('isifile');

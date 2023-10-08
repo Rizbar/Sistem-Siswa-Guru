@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('siswa', function (Blueprint $table) {
+        Schema::create('siswa', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('Email');
@@ -32,9 +32,9 @@ return new class extends Migration
             $table->string('Pekerjaan_Ibu');
             $table->string('Alamat_Orang_Tua');
             $table->string('No_Telepon_Orang_Tua');
-            $table->string('Asal_Sekolah');
             $table->string('Kelas');
             $table->string('Jurusan');
+            $table->string('url_foto')->default('default.jpg');
             $table->rememberToken();
             $table->timestamps();
         });

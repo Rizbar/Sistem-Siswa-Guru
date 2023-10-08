@@ -31,6 +31,7 @@ return new class extends Migration
             $table->string('Akhir_Tanggal_Sertifikat');
             $table->string('Jabatan');
             $table->string('Status_Guru');
+            $table->string('url_foto')->default('default.jpg');
             $table->rememberToken();
             $table->timestamps();
         });

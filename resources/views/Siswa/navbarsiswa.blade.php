@@ -31,7 +31,7 @@
                 <div class="position-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link fw-bold text-light" href="/BiodataGuru">
+                            <a class="nav-link fw-bold text-light" href="/BiodataSiswa">
                                 Biodata
                             </a>
                         </li>
