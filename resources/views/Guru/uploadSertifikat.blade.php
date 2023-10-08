@@ -10,6 +10,10 @@
                     <label for="formFile" class="form-label">Pilih File</label>
                     <input class="form-control" type="file" id="formFile">
                 </div>
+                <div class="mb-3">
+                    <label for="namafile" class="form-label mt-3">Nama File:</label>
+                    <input class="form-control" type="text" aria-label="default input example">
+                </div>
             </div>
         </div>    
     </div>
