@@ -1,4 +1,4 @@
-@extends('Guru.navbarguru')
+@extends('Siswa.navbarsiswa')
 @section('container')
     <div class="container mt-5">
         <div class="card">
@@ -30,11 +30,11 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <th>NIP</th>
+                                    <th>Jurusan</th>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <th>Jabatan</th>
+                                    <th>Kelas</th>
                                     <td></td>
                                 </tr>
                             </tbody>

@@ -20,7 +20,7 @@
                     <option value="3">C</option>
                 </select>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 offset-md-3">
                 <form action="" method="get">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Cari Siswa" aria-label="Cari Siswa" aria-describedby="button-addon2">

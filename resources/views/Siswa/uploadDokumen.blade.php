@@ -1,9 +1,9 @@
-@extends('Guru.navbarguru')
+@extends('Siswa.navbarsiswa')
 @section('container')
     <div class="container mt-5">
         <div class="card">
             <div class="card-header bg-primary text-white">
-                <h3 class="text-start">Upload Sertifikat</h3>
+                <h3 class="text-start">Upload Dokumen</h3>
             </div>
             <div class="card-body">
                 <div class="mb-3">

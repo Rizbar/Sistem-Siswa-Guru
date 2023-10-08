@@ -29,6 +29,26 @@ Route::get('/DaftarSiswa', function () {
     return view('Guru/daftarsiswa');
 });
 
+Route::get('/KelasWali', function () {
+    return view('Guru/kelaswali');
+});
+
+Route::get('/PembimbinganGuru', function () {
+    return view('Guru/pembimbing');
+});
+
+Route::get('/BiodataSiswa', function () {
+    return view('Siswa/biodatasiswa');
+});
+
+Route::get('/UploadDokumen', function () {
+    return view('Siswa/uploadDokumen');
+});
+
+Route::get('/PembimbingSiswa', function () {
+    return view('Siswa/pembimbing');
+});
+
 Route::get('/login', function () {
     return view('Layout/login');
 });
