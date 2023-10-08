@@ -11,7 +11,5 @@
 
     <div class="prestasi">
         <h3>Prestasi SMK 3 Banda Aceh</h3>
-
-        
     </div>
 @endsection

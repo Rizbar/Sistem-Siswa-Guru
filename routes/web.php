@@ -21,6 +21,17 @@ Route::get('/guru', function () {
     return view('Layout/guru');
 });
 
+Route::get('/jurusan', function () {
+    return view('Layout/jurusan');
+});
+
+Route::get('/login', function () {
+    return view('Layout/login');
+});
+
+Route::get('/register', function () {
+    return view('Layout/register');
+});
 
 Route::get('/BiodataGuru', function () {
     return view('Guru/biodata');
@@ -33,12 +44,3 @@ Route::get('/UploadGuru', function () {
 Route::get('/DaftarSiswa', function () {
     return view('Guru/daftarsiswa');
 });
-
-Route::get('/login', function () {
-    return view('Layout/login');
-});
-
-Route::get('/register', function () {
-    return view('Layout/register');
-});
-

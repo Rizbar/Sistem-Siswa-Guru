@@ -22,10 +22,10 @@
             <a class="nav-link fw-bold" style="color: #134F5C"  href="/">Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" style="color: #134F5C" href="#">Guru dan Staff</a>
+            <a class="nav-link fw-bold" style="color: #134F5C" href="/guru">Guru dan Staff</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" style="color: #134F5C" href="#">Jurusan</a>
+            <a class="nav-link fw-bold" style="color: #134F5C" href="/jurusan">Jurusan</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bold" style="color: #134F5C" href="/login">Login</a>
