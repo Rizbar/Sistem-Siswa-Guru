@@ -27,25 +27,32 @@
                     </div>
                 </div>
             </nav>
-            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark text-dark sidebar ">
                 <div class="position-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="/BiodataGuru">
-                                <span data-feather="file"></span>
+                            <a class="nav-link fw-bold text-light" href="/BiodataGuru">
                                 Biodata
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/UploadGuru">
-                                <span data-feather="file"></span>
+                            <a class="nav-link fw-bold text-light" href="/UploadGuru">
                                 Upload Sertifikat
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/DaftarSiswa">
-                                <span data-feather="file"></span>
+                            <a class="nav-link fw-bold text-light" href="/DaftarSiswa">
                                 Daftar Siswa
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-light" href="/KelasWali">
+                                Kelas wali
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-light" href="/Pembimbing">
+                                Pembimbingan
                             </a>
                         </li>
                     </ul>
