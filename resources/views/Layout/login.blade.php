@@ -5,36 +5,34 @@
     <meta charset="utf-8">
     <title>Login</title>
     <link href="css/login.css" rel="stylesheet">
-<head>
+</head>
 
 <body>
     <div class="container">
         <h1>Login</h1>
 
         <div class="input">
-            <form>
-                <label for="UserID">Login sebagai</label>
-                <select id="UserID" name="UserID">
-                    <option value="Mahasiswa">Mahasiswa</option>
+            <form method="POST" action="{{ route('login') }}">
+                @csrf
+                <label for="UserRole">Login sebagai</label>
+                <select id="UserRole" name="UserRole">
+                    <option value="Siswa">Siswa</option>
                     <option value="Guru">Guru</option>
                     <option value="Admin">Admin</option>
                 </select>
 
-                <label for="fname">Username</label>
-                <input type="text" id="fname" name="fname">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
                 
-                <label for="pass">Password</label>
-                <input type="text" id="pass" name="pass">
+                <button type="submit" class="button">Login</button>
             </form>
         </div>
 
-        <p>Belum ada akun? <a href="/register">Register akun di sini</a></p>
-
-        <div class="buttoncontainer">
-        <a href="/BiodataGuru" class="button">Login</a>
-        </div>
-
+        <p>Belum ada akun? <a href="{{ route('register') }}">Register akun di sini</a></p>
     </div>
-<body>
+</body>
 
-<html>
+</html>

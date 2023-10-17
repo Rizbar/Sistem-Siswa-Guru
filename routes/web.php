@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GuruController;
+use App\Http\Controllers\JurusanController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,13 +29,17 @@ Route::get('/jurusan', function () {
     return view('Layout/jurusan');
 });
 
-Route::get('/login', function () {
-    return view('Layout/login');
-});
 
-Route::get('/register', function () {
-    return view('Layout/register');
-});
+// Login Routes
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [LoginController::class, 'login']);
+
+// Logout Route
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+
+// Registration Routes (assuming you have generated them with 'php artisan make:auth')
+Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('/register', [RegisterController::class, 'register']);
 
 Route::get('/BiodataGuru', function () {
     return view('Guru/biodata');
